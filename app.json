@@ -1,0 +1,27 @@
+{
+  "name": "> ⏤͟͞ 𝕊𝔸ℕ𝕌𝕌 ꪶ鍶ꫂ 𝕄𝔻 ϟ  ͟͞⏤",
+  "description": "An Interesting WhatsApp User Bot Created By Mr.Nethmika & NBT",
+  "logo": "https://github.com/NIKO-PAMIYA/Img/blob/main/20241104_154500.jpg?raw=true",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },  
+
+    "MONGODB": {
+      "description": "Put your mongodb url.",
+      "required": true
+    }
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
+
